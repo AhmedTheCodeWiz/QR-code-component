@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}:root{
+    --light-grey: #d6e2f0;
+    --gray-blue: 	#7b879d;
+    --mariana-blue: 	#1f3251;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: var(--light-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.container{
+    background-color: white;
+    width: 214px;
+    height: 333px;
+    border-radius: 16px;
+}
+.container-qr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-qr img{
+    border-radius: 18px;
+    padding: 0.6rem;
+    width: 194px;
+    height: 192px;
+}
+.title{
+    padding: 0.6rem;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 800;
+    color: var(--mariana-blue);
+}
+.instructions{
+    padding: 0.1rem;
+    font-size: 10px;
+    text-align: center;
+    color: var(--gray-blue);
+}
